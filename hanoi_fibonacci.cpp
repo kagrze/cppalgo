@@ -29,7 +29,26 @@ void test_hanoi() {
     assert(hanoi(4, 'A', 'C', 'B') == 15);
 }
 
+/*
+ * Fibonacci number
+ */
+unsigned long fibonacciNumber(unsigned int position) {
+	return (position < 2) ? position : (fibonacciNumber(position - 1) + fibonacciNumber(position - 2));
+}
+
+void test_fibonacci() {
+	assert(fibonacciNumber(0) == 0);
+	assert(fibonacciNumber(1) == 1);
+	assert(fibonacciNumber(2) == 1);
+	assert(fibonacciNumber(3) == 2);
+	assert(fibonacciNumber(4) == 3);
+	assert(fibonacciNumber(5) == 5);
+	assert(fibonacciNumber(6) == 8);
+	assert(fibonacciNumber(7) == 13);
+}
+
 int main() {
 	test_hanoi();
+	test_fibonacci();
 	std::cout << "All tests have passed" << std::endl;
 }
