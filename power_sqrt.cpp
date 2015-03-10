@@ -45,8 +45,8 @@ void test_squareRoot() {
 	auto expected = 3.0;
 	assert(root > expected - margin && root < expected + margin);
 
-  	root = squareRoot(4);
-  	expected = 2.0;
+	root = squareRoot(4);
+	expected = 2.0;
 	assert(root > expected - margin && root < expected + margin);
 
 	root = squareRoot(2);

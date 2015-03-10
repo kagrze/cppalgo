@@ -23,10 +23,10 @@ void test_hanoi() {
 	assert(hanoi(1, 'A', 'C', 'B') == 1);
 	std::cout << std::endl;
 	assert(hanoi(2, 'A', 'C', 'B') == 3);
-    std::cout << std::endl;
+	std::cout << std::endl;
 	assert(hanoi(3, 'A', 'C', 'B') == 7);
-    std::cout << std::endl;
-    assert(hanoi(4, 'A', 'C', 'B') == 15);
+	std::cout << std::endl;
+	assert(hanoi(4, 'A', 'C', 'B') == 15);
 }
 
 /*
