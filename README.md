@@ -11,6 +11,8 @@ C++ implementations of miscellaneous algorithms
     - [Fibonacci number](hanoi_fibonacci.cpp)
     - [Tower of Hanoi](hanoi_fibonacci.cpp)
 
+- [The knapsack problem](knapsack.cpp)
+
 Implementations are written based on C++11 standard.
 
 All the algorithms are accompanied with unit tests
