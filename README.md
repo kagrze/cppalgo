@@ -12,6 +12,7 @@ C++ implementations of miscellaneous algorithms
     - [Tower of Hanoi](hanoi_fibonacci.cpp)
 
 - [The knapsack problem](knapsack.cpp)
+- [N queens problem (backtracking approach)](queens.cpp)
 
 Implementations are written based on C++11 standard.
 
