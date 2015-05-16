@@ -13,6 +13,8 @@ C++ implementations of miscellaneous algorithms
 
 - [The knapsack problem](knapsack.cpp)
 - [N queens problem (backtracking approach)](queens.cpp)
+- [Spell checker based on the Noisy Channel Model and the Levenshtein distance](spell_checker.cpp)
+- [k-nearest neighbors regressionn](knn.cpp)
 
 Implementations are written based on C++11 standard.
 
